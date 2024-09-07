@@ -1,10 +1,10 @@
 {
   "name": "File Sharing Premium Bot",
   "description": "Telegram File Sharing Premium Bot Bot ",
-  "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
+  "logo": "https://graph.org/file/9d88c6f2f93b0f44a59d4.jpg",
   "keywords": ["File Sharing Premium Bot", "Mongo DB"],    
-  "repository": "https://github.com/JishuDeveloper/File-Sharing-Premium-Bot",
-  "success_url": "https://t.me/Madflix_Bots",
+  "repository": "https://github.com/Ajaytrams",
+  "success_url": "https://t.me/Aj_Flix_Hub",
   "env": {
       "API_ID": {
           "description": "Your APP ID From my.telegram.org ",
@@ -48,7 +48,7 @@
       },
       "DB_NAME":{ 
           "description":"Your Mongo DB Database Name",
-          "value": "madflixbotz",
+          "value": "AjFlixHub",
           "required": false
       },
       "START_MESSAGE": {
