@@ -15,9 +15,9 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://ramsaranhero1:EMVwKybGR1lBF5DZ@
 DB_NAME = os.environ.get("DB_NAME", "ramsaranhero1")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002157609991"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002175334495"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002191020088"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
