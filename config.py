@@ -20,6 +20,10 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002175334495"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002191020088"))
 
 
+SHORTLINK_URL = os.environ.get('SHORTLINK_URL', 'shorturllink.in')
+SHORTLINK_API = os.environ.get('SHORTLINK_API', '4b4ee55w6qdn9932941d55wd4597b62')
+
+
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
 
 
