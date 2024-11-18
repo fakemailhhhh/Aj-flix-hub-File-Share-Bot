@@ -66,6 +66,14 @@
         "value": "",
         "required": false
       },
+      "SHORTLINK_URL": {
+        "description": "Shortlink Domain URL To Use it to short Links. Example: tnshort.net",
+        "required": false
+      },
+      "SHORTLINK_API": {
+         "description": "Shortlink API To Use it to short Links. Example: tnsh45ort123shor6789",
+         "required": false
+      },
       "PROTECT_CONTENT": {
         "description": "Protect contents from getting forwarded",
         "value": "False",
